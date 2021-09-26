@@ -10,7 +10,7 @@ const Main = () => {
     useEffect(()=>{
         fetch('./data.json')
         .then(res => res.json())
-        .then( data => setUsers(data))
+        .then(data => setUsers(data))
       },[])
 
 
@@ -33,8 +33,7 @@ const Main = () => {
 
             {/* cart */}
             <div className="right-side">
-       <Cart key={cart.name} 
-       cart={cart}></Cart>
+          <Cart key={cart.age} cart={cart} ></Cart>
             </div>
         </div>
     );

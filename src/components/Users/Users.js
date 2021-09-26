@@ -19,7 +19,7 @@ const Users = (props) => {
                 <h3>Hometown: {hometown}</h3>
                 <h3>Salary:${salary}</h3>
             </div>
-            <button onClick={() => props.handleAddToCartBtn(props.user)} className="add-to-cart-btn">{cartIcon} Add People</button>
+            <button onClick={() => props.handleAddToCartBtn(props.user)} className="add-to-cart-btn">{cartIcon} Add To Cart</button>
 
             {/* icons */}
             <div className="social-icons">
