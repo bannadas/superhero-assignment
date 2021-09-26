@@ -1,1 +1,10 @@
 
+.cart-added-people{
+    display: flex;
+    justify-content: space-around;
+    gap: 5;
+    margin:10px;
+    text-align: center;
+    background-color:lightgray;border-radius:20px;
+   box-shadow: 4px 4px 7px gray;
+}

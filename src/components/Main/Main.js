@@ -6,17 +6,13 @@ import './Main.css'
 const Main = () => {
     const [users,setUsers] = useState([]);
     const [cart,setCart] =useState([]);
-   
-
-
-
-
 
     useEffect(()=>{
         fetch('./data.json')
         .then(res => res.json())
         .then( data => setUsers(data))
       },[])
+
 
       const  handleAddToCartBtn = user =>{
           const newCart = [...cart,user];
@@ -26,7 +22,7 @@ const Main = () => {
 
     return (
         <div className="main-container">
-            <div className="left-side">
+            <div className="left-side-card">
        
         {
            users.map(user => <Users key={user.age} user={user} handleAddToCartBtn={handleAddToCartBtn}></Users>) 
