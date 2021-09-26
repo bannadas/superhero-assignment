@@ -1,0 +1,16 @@
+.users img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+}
+.users{
+    width: 250px;
+    padding: 10px;
+  transition: 0.6s;
+  background-color: rgba(201, 192, 192, 0.333);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  box-shadow: 4px 4px 7px gray;
+  text-align: center;
+}

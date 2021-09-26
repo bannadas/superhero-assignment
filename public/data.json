@@ -1,0 +1,78 @@
+[
+    {
+        "name":"Bibek Roy",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4lZYNTcEWjMNOUw0pwNdVHHnxgCRb_Ed8JQ&usqp=CAU",
+         "post":"President",
+         "age": 35,
+          "hometown":"Dhaka",
+          "salary":40000
+    },
+    {
+        "name":"Dibya Datta",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2as1PLfMq-IkJfT-_sr1vAOle0dKmcFbCKQ&usqp=CAU",
+         "post":"General Secretary",
+         "age": 30,
+          "hometown":"Dhaka",
+          "salary":35000
+    },
+    {
+        "name":"Rashmi Jahan",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa4XnGObxtVrgwf0C42uO9ZGUj2Zh1WwmvRA&usqp=CAU",
+         "post":"Office Secretary",
+         "age": 25,
+          "hometown":"Khulna",
+          "salary":25000
+    },
+    {
+        "name":"Darpan Chowdhury",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_LjTQ7WMAxXELj8H1quP_LWZbTk2Jjt1y2Q&usqp=CAU",
+         "post":"Treaser",
+         "age": 26,
+          "hometown":"Dhaka",
+          "salary":30000
+    },
+    {
+        "name":"Golam Kibria",
+        "image" :"https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+         "post":"Blood managing Secretary",
+         "age": 27,
+          "hometown":"Sylhet",
+          "salary":28000
+    },
+    {
+        "name":"Abdullah",
+        "image" :"https://images.thequint.com/thequint%2F2016-04%2Fb7e5ca6f-6a68-479a-bf85-2fe72f814efe%2FiStock_000079450013_Large.jpg?rect=0%2C2%2C2721%2C1429&w=1200&auto=format%2Ccompress&ogImage=true",
+         "post":" Assitant blood managing Secretary",
+         "age": 32,
+          "hometown":"Dhaka",
+          "salary":20000
+    },
+    {
+        
+        "name":"Shanto roy",
+        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDoKcYcOi4EuE0v_V1jKIdA2Hs5_ocooSTaA&usqp=CAU",
+         "post":"Cultural Secretary",
+         "age": 22,
+          "hometown":"Bagura",
+          "salary":18000
+    },
+    {
+        "name":"Nijhum hasan",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDA0jUdWRRPNUuNbmiYyNgwWLv_NHLZN4RRA&usqp=CAU",
+         "post":"Assistant cultural secretary",
+         "age": 20,
+          "hometown":"Dhaka",
+          "salary":15000
+    },
+    {
+        "name":"Prerna Jahan",
+      "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcRblFblgUROXDpxB7TDghgURaoB5yA2ORA&usqp=CAU",
+         "post":"General member",
+         "age": 18,
+          "hometown":"Dhaka",
+          "salary":10000
+    }
+  
+    
+
+]
