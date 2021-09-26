@@ -5,7 +5,7 @@
     
 }
 .users{
-    width: 250px;
+    width: 300px;
     padding: 10px;
   transition: 0.6s;
   background-color: rgba(201, 192, 192, 0.333);
@@ -13,4 +13,11 @@
   margin-bottom: 5px;
   box-shadow: 4px 4px 7px gray;
   text-align: center;
+}
+.add-to-cart-btn{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
 }

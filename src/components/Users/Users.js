@@ -2,7 +2,7 @@ import React from 'react';
 import './Users.css'
 
 const Users = (props) => {
-    console.log(props.user);
+    
     const {image,name,post,age,hometown,salary} = props.user
     return (
         <div className="users">
@@ -14,6 +14,7 @@ const Users = (props) => {
            <h3>Hometown: {hometown}</h3> 
            <h3>Salary: {salary}</h3> 
             </div>
+            <button onClick={()=>props.handleAddToCartBtn(props.user)} className="add-to-cart-btn">Add To Cart</button>
            
         </div>
     );
