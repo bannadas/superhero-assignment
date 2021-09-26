@@ -21,3 +21,15 @@
     border: 1px solid lightgray;
     border-radius: 5px;
 }
+.social-icons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.facebook-icon{
+    margin-left: 40px;
+}
+.insta-icon{
+    margin-right: 40px;
+}

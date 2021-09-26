@@ -1,9 +1,14 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart} from '@fortawesome/free-solid-svg-icons'
+import {FaFacebookSquare,FaInstagram} from "react-icons/fa"
+
 import './Users.css'
 
 const Users = (props) => {
-    
-    const {image,name,post,age,hometown,salary} = props.user
+    const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />
+
+    const {image,name,post,age,hometown,salary} = props.user;
     return (
         <div className="users">
             <div className="user">
@@ -14,7 +19,16 @@ const Users = (props) => {
            <h3>Hometown: {hometown}</h3> 
            <h3>Salary: {salary}</h3> 
             </div>
-            <button onClick={()=>props.handleAddToCartBtn(props.user)} className="add-to-cart-btn">Add To Cart</button>
+            <button onClick={()=>props.handleAddToCartBtn(props.user)} className="add-to-cart-btn">{cartIcon} Add To Cart</button>
+            <div className="social-icons">
+            <div className="facebook-icon">
+            <FaFacebookSquare/>
+            </div>
+            <div className="insta-icon">
+            <FaInstagram/>
+            </div>
+            </div>
+            
            
         </div>
     );
