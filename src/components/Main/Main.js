@@ -25,11 +25,16 @@ const Main = () => {
             <div className="left-side-card">
        
         {
-           users.map(user => <Users key={user.age} user={user} handleAddToCartBtn={handleAddToCartBtn}></Users>) 
+           users.map(user => <Users key={user.age} 
+            user={user} handleAddToCartBtn={handleAddToCartBtn}></Users>) 
         }
             </div>
+
+
+            {/* cart */}
             <div className="right-side">
-       <Cart cart={cart} ></Cart>
+       <Cart key={cart.name} 
+       cart={cart}></Cart>
             </div>
         </div>
     );

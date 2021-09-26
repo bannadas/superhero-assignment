@@ -13,13 +13,16 @@ const Cart = (props) => {
         <div className="cart-added-people" >
             <img style={{width:'80px', height:'80px',borderRadius:'40px'}} src={people.image} alt="" />
             <h4>{people.name}</h4>
+            
+            
         </div>
     )
     // cart section
     return (
-        <div>
+        <div style={{backgrounColor:'lightgray',
+            boxShadow: '4px 4px 7px gray',padding:'10px',marginTop:'20px'}}>
              <h2><FaUser/> People Added:{props.cart.length}</h2>
-        <h3>Total Cost:${total}</h3>
+        <h3>Total Salary:${total}</h3>
         <div >
             <div>
             {people}
