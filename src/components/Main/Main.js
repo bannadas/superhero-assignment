@@ -33,7 +33,7 @@ const Main = () => {
 
             {/* cart */}
             <div className="right-side">
-          <Cart  cart={cart} ></Cart>
+          <Cart cart={cart} ></Cart>
             </div>
         </div>
     );
